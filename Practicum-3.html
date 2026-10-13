@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medihive</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #eaf5f5;
+            text-align: center;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            margin: 30px auto;
+            max-width: 350px;
+            border-radius: 10px;
+        }
+        input, select, textarea {
+            width: 90%;
+            padding: 8px;
+            margin: 8px;
+        }
+        button {
+            background: teal;
+            color: white;
+            padding: 10px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Medihive</h1>
+    <p>Telemedicine and Online Consultation</p>
+
+    <form>
+        <h2>Patient Registration</h2>
+
+        <input type="text" placeholder="Patient Name" required>
+        <input type="email" placeholder="Email ID" required>
+        <input type="tel" placeholder="Mobile Number" required>
+
+        <select required>
+            <option value="">Select Department</option>
+            <option>General Medicine</option>
+            <option>Cardiology</option>
+            <option>Dermatology</option>
+            <option>Pediatrics</option>
+        </select>
+
+        <input type="date" required>
+
+        <textarea placeholder="Describe Symptoms"></textarea>
+
+        <button type="submit">Book Appointment</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
